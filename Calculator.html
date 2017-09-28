@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body>
+<script type="text/javascript">
+var a,b,c,r;
+
+
+
+do
+{
+	c=parseInt(prompt("Welcome to Calculator\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Exit\nEnter your choice:"));
+
+	switch(c)
+	{
+		case 1:
+		a=parseInt(prompt("Enter 1st no."));
+		b=parseInt(prompt("Enter 2nd no."));
+		r=a+b;
+		alert("Answer is "+r)
+		break;
+
+		case 2:
+		a=parseInt(prompt("Enter 1st no."));
+		b=parseInt(prompt("Enter 2nd no."));
+		r=a-b;
+		alert("Answer is "+r)
+		break;
+
+		case 3:
+		a=parseInt(prompt("Enter 1st no."));
+		b=parseInt(prompt("Enter 2nd no."));
+		r=a*b;
+		alert("Answer is "+r)
+		break;
+
+		case 4:
+		a=parseInt(prompt("Enter 1st no."));
+		b=parseInt(prompt("Enter 2nd no."));
+		r=a/b;
+		alert("Answer is "+r)
+		break;
+		
+		case 5:
+		break;
+		
+		default:
+		alert("Invalid input\nTry again")
+		
+	}
+	
+}while(c!==5)
+
+</script>
+</body>
+</html>
